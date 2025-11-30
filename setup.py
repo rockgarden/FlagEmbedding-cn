@@ -22,7 +22,8 @@ setup(
         'peft',
         'ir-datasets',
         'sentencepiece',
-        'protobuf'
+        'protobuf',
+        'ipywidgets'
     ],
     extras_require={
         'finetune': ['deepspeed', 'flash-attn'],
